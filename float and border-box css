@@ -1,0 +1,30 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+    
+<body>
+  <div class="box-one">test </div>
+   <div class="box-one">test2
+    
+  </div>
+</body>
+</html>
+---------------------sytle.css------------------------------------
+.box-one{
+  height:200px;
+  weight:200px;
+  background-color:green;
+  float:left// html tags are blok level and to use it inline we should put flot:left in both div.
+  padding:50px;
+  box-sizing:border-box; // just because of border-box it will stay it own size. 
+}
+.box-two{
+  height:200px;
+  weight:200px;
+  background-color:green;
+  float:left// html tags are blok level and to use it inline we should put flot:left in both div.
+  padding:50px;
+  box-sizing:border-box; // just because of border-box it will stay it own size. 
+}

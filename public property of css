@@ -1,0 +1,9 @@
+/* to use publicly css throughout the file*/
+*{ margin:0;
+padding:0;
+}
+/*to use for common property*/
+[class*='col-']{
+  float:left;//instead of writing again and again to every class we can add [class*='what-is-common']
+  
+}
